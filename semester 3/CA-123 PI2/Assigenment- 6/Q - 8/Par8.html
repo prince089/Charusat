@@ -1,0 +1,32 @@
+<html>
+ <head>
+
+ <script >
+     var Product=[];
+     Product[0] = ['Product ID','Product Name','Product Price'];
+     Product[1] = ['ABC001','TV',35000];
+     Product[2] = ['ABC002','Moblie',15000];
+     Product[3] = ['ABC003','Fan',5000];
+     Product[4] = ['ABC004','Leptop',45000];
+     Product[5] = ['ABC005','A/C',55000];
+     var r = Product.length;
+     var c = Product[0].length;
+     document.write("<table border=1>")
+     for(var i=0; i<r ; i++)
+     {
+         document.write("<tr>")
+         for(var j=0; j<c;j++)
+         {
+            document.write("<td>"+Product[i][j]+"</td>")
+         }
+            document.write("</tr>")
+     }
+     document.write("</table>")
+ </script>
+
+ </head>
+ <body>
+ 
+
+ </body>
+</html>

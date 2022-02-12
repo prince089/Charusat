@@ -1,0 +1,88 @@
+.header>img{
+    width: 50px;
+    float: left;
+}
+.header>h1{
+    color:blue;
+}
+
+.up_menu{
+    display: inline-block;
+    background-color: rgb(42, 110, 236);
+    padding: 10px;
+    padding-left: 30px;
+    color: white;
+    width: 100%;
+    border: black solid 1px;
+    
+}
+.up_menu>a{
+    border: black solid 1px;
+   
+   padding: 11px;
+}
+
+.left{
+    float: left;
+    width: 20%;
+}
+
+thead{
+    background-color: rgb(72, 122, 216);
+    color: white;
+    border: black solid 2px;
+}
+
+td{
+    border: black solid 1px;
+}
+table{
+    width: 90%;
+}
+
+
+.body{
+    float: left;
+    width: 60%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    padding: 10px;
+}
+
+.notice{
+    border: black solid 1px;
+    background-color: rgb(116, 243, 230);
+    padding: 10px;
+}
+
+.b_p1{
+    border: black solid 2px;
+}
+.b_p1>h1{
+    color:blue;
+}
+
+.b_p2{
+    
+    border: black solid 2px;
+}
+
+aside{
+    float: left;
+}
+
+aside>img{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+tr:hover{
+    text-decoration: underline;
+    text: black 10px;
+    
+}
+
+aside>img:hover{
+    width: 80px;
+}

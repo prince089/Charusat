@@ -1,0 +1,39 @@
+body{
+    background-color: #ccffcc;
+    background-image: url("../../../../Working%20files/19BCA015%20AMIRUDDIN%20SAMLAYAWALA/CA213%20Practical%20Exercise%205%20for%20Week%206/Images_Lab6/smiley.png"), url("../../../../Working%20files/19BCA015%20AMIRUDDIN%20SAMLAYAWALA/CA213%20Practical%20Exercise%205%20for%20Week%206/Images_Lab6/table.png");
+    background-attachment: fixed, fixed;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 200px,200px;
+    background-position: center right, center right;
+    margin: 10px, 10px;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    border: dotted;
+    text-shadow: black 1px -2px 1px;
+}
+div{
+    width: 30%;
+}
+.middle_text{
+    color: rgb(112, 5, 5);
+    padding-left: 30%;
+}
+.menu{
+    background-color: chocolate;
+    border: 1px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: red 5px 5px 2px;
+    color: rgb(94, 3, 3);
+}
+li{
+    color: rgb(167, 55, 55);
+}
+.lastpara{
+    color: rgb(90, 2, 2);
+}
+.lastcontent{
+    text-indent: 30px;
+}

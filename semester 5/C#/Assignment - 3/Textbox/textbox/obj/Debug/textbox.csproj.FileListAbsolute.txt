@@ -1,0 +1,10 @@
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\bin\Debug\textbox.exe.config
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\bin\Debug\textbox.exe
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\bin\Debug\textbox.pdb
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.csproj.AssemblyReference.cache
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.Form1.resources
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.Properties.Resources.resources
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.csproj.GenerateResource.cache
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.csproj.CoreCompileInputs.cache
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.exe
+E:\charusat\sem 5\c#\visule_task\class_work\class_1_9_21\textbox\obj\Debug\textbox.pdb

@@ -1,0 +1,12 @@
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.AssemblyInfoInputs.cache
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.AssemblyInfo.cs
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.csproj.CoreCompileInputs.cache
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.exe
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.deps.json
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.runtimeconfig.json
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.runtimeconfig.dev.json
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.dll
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\bin\Debug\netcoreapp3.1\Q_48.pdb
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.dll
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.pdb
+E:\charusat\sem 5\c#\assigemnt1\Q_2\Q_48\obj\Debug\netcoreapp3.1\Q_48.genruntimeconfig.cache

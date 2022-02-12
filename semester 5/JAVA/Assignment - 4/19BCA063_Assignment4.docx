@@ -1,0 +1,464 @@
+Smt. Chandaben Mohanbhai Patel Institute of Computer Applications
+Sub: CA314: Object Oriented Programming through JAVA
+Practical Assignment-4
+Classes & Objects
+
+
+ID: 19BCA063
+NAME: Shivam Usturge
+
+
+/*
+1. Write a java program to find the addition of two object of a class
+ using object as a parameter and also with returning object as a parameter.
+*/
+package CMPICA;
+class ObjectPassDemo
+{
+ public 
+ int a, b;
+ 
+ ObjectPassDemo(){}
+ ObjectPassDemo(int i, int j)
+ {
+ a = i;
+ b = j;
+ }
+}
+class Add
+{
+ int addArgument(ObjectPassDemo obj)
+ {
+ int result;
+ result=obj.a+obj.b;
+ return result;
+ }
+}
+public class Assignment4_1 {
+ public static void main(String args[])
+ {
+ ObjectPassDemo obj= new ObjectPassDemo(348,553);
+ Add obj_add=new Add();
+ int solution= obj_add.addArgument(obj); 
+ System.out.println("Sum of Arguments are: "+solution);
+ } 
+}
+/*
+2. Write a program to accept student information such as roll no, name, course and 
+fees using constructor and display the same.
+*/
+package CMPICA;
+import java.util.Scanner;
+class Student{
+ public
+ int id,fees;
+ String name, Course;
+ 
+ void AcceptStudent_info()
+ {
+ Scanner scan= new Scanner(System.in);
+ System.out.println("\nEnter Your Student Id: ");
+ id= Integer.parseInt(scan.nextLine());
+ System.out.println("Enter Your Name: ");
+ name= scan.nextLine();
+ System.out.println("Enter Your Course Name: ");
+ Course= scan.nextLine();
+ System.out.println("Enter Your fees: ");
+ fees= Integer.parseInt(scan.nextLine()); 
+ }
+ void DisplayStudent_info()
+ {
+ System.out.println("\nYour Student Id: "+id);
+ System.out.println("Your Name: "+name);
+ System.out.println("Your Course Name: "+Course);
+ System.out.println("Your fees: "+fees+"\n");
+ }
+}
+public class Assignment4_2 {
+ public static void main(String args[])
+ {
+ Student s_obj= new Student();
+ s_obj.AcceptStudent_info();
+ s_obj.DisplayStudent_info();
+ }
+}
+/*
+3. Explain the use of this pointer with suitable example.
+*/
+package CMPICA;
+class Employee1{
+ public
+ int id,Salary;
+ String name, designation;
+ 
+ void AcceptEmployee_info(int id, String name, String designation, int Salary)
+ {
+ this.id=id;
+ this.name=name;
+ this.designation=designation;
+ this.Salary=Salary;
+ }
+ void DisplayEmployee_info()
+ {
+ System.out.println("\nYour Employee Id: "+id);
+ System.out.println("Your Employee Name: "+name);
+ System.out.println("Your Designation: "+designation);
+ System.out.println("Your Salary: "+Salary+"\n");
+ }
+}
+public class Assignment4_3 {
+ public static void main(String args[])
+ {
+ Employee1 emp=new Employee1();
+ emp.AcceptEmployee_info(1, "Shivam", "Manager", 20000);
+ emp.DisplayEmployee_info();
+ }
+}
+/*
+4. Create class Student with instance variables Stud id, name, address, marks1, 
+marks2, marks3. 
+Write constructor to initialize the instance variables. 
+Also, create method result which display percentage and average marks based on three 
+subject mark.
+*/
+package CMPICA;
+class student{
+ public
+ int id,marks1,marks2,marks3;
+ String name,address;
+ 
+ student(int id,String name,String address,int marks1,int marks2,int marks3)
+ {
+ this.id=id;
+ this.name=name;
+ this.address=address;
+ this.marks1=marks1;
+ this.marks2=marks2;
+ this.marks3=marks3;
+ }
+ void Display_student_info()
+ {
+ System.out.println("\nYour Student Id: "+id);
+ System.out.println("Your Name: "+name);
+ System.out.println("Your Address: "+address);
+ System.out.println("Your Mark of Subject 1: "+marks1);
+ System.out.println("Your Mark of Subject 2: "+marks2);
+ System.out.println("Your Mark of Subject 3: "+marks3+"\n");
+ }
+ void Result()
+ {
+ double total;
+ double percentage;
+ total=marks1+marks2+marks3;
+ percentage=total/3;
+ System.out.println("\nTotal is: "+total+" \nPercentage is: "+percentage);
+ }
+}
+public class Assignment4_4 {
+ public static void main(String args[])
+ {
+ student stud_obj= new student(1,"Shivam","Mogar Anand",79,88,96);
+ stud_obj.Display_student_info();
+ stud_obj.Result();
+ }
+}
+/*
+5. Define class named square as below:
+Data Members: side ,Methods: area (), perimeter (). Create an object of class square & 
+test it.
+*/
+package CMPICA;
+class square
+{
+ public
+ double side;
+ square(int side)
+ {
+ this.side=side;
+ }
+ void Area()
+ {
+ double temp;
+ temp=side*side;
+ System.out.println("Area of Square is: "+temp);
+ }
+ void perimeter()
+ {
+ double temp;
+ temp=4*side;
+ System.out.println("perimeter of Square is: "+temp);
+ }
+}
+public class Assignment4_5 {
+ public static void main(String args[])
+ {
+ square s_obj=new square(20);
+ s_obj.Area();
+ s_obj.perimeter();
+ 
+ }
+}
+/*
+6. Write a Java program can contain two classes: Computer and Laptop. 
+Both classes have their own constructors and a method. In main method create object of 
+two classes and call their methods.
+*/
+package CMPICA;
+class Laptop
+{
+ Laptop()
+ {
+ System.out.println("Deault Constructor of Laptop Class is called.");
+ }
+ void display()
+ {
+ System.out.println("Method of Laptop Class is called.");
+ }
+}
+class Mobile
+{
+ Mobile()
+ {
+ System.out.println("Deault Constructor of Mobile Class is called.");
+ }
+ void display()
+ {
+ System.out.println("Method of Mobile Class is called.");
+ }
+}
+public class Assignment4_6 {
+ public static void main(String args[])
+ {
+ Laptop lp=new Laptop();
+ Mobile mb=new Mobile();
+ 
+ lp.display();
+ mb.display();
+ }
+}
+/*
+7. Create class Employee with instance variables as follow: 
+name, age, designation, salary. Create constructor to set the values of variables. 
+Create display method to display Employee’s information. 
+*/
+package CMPICA;
+class employee{
+ public
+ int id,Salary;
+ String name, designation;
+ 
+ employee(int id, String name, String designation, int Salary)
+ {
+ this.id=id;
+ this.name=name;
+ this.designation=designation;
+ this.Salary=Salary;
+ }
+ void DisplayEmployee_info()
+ {
+ System.out.println("\nYour Employee Id: "+id);
+ System.out.println("Your Employee Name: "+name);
+ System.out.println("Your Designation: "+designation);
+ System.out.println("Your Salary: "+Salary+"\n");
+ }
+}
+public class Assignment4_7 {
+ public static void main(String args[])
+ {
+ employee emp=new employee(1, "Shivam", "Manager", 20000);
+ emp.DisplayEmployee_info();
+ }
+}
+/*
+8. Create a class Account with members account no, acctype, custname, balance 
+&methods deposit, withdraw &showbalance. 
+Write a main class to accept all the details & display all details.
+*/
+package CMPICA;
+import java.util.Scanner;
+class Account{
+ int acc_no=987953;
+ double Balance=10000;
+ String acc_type,custname;
+ double reBalance(){
+ return Balance;
+ }
+ void deposit(int amount)
+ {
+ Balance+=amount;
+ System.out.println(amount+" Deposited Successfully.");
+ System.out.println("Available Balance at Account number "+acc_no+" is: 
+"+Balance);
+ }
+ void withdraw(int amount)
+ {
+ Balance-=amount;
+ System.out.println(amount+" Withdrawn Successfully.");
+ System.out.println("Available Balance at Account number "+acc_no+" is: 
+"+Balance);
+ }
+ void showBalance()
+ {
+ System.out.println("Available Balance at Account number "+acc_no+" is: 
+"+Balance);
+ }
+}
+public class Assignment4_8 {
+ public static void main(String args[])
+ {
+ int ch;
+ Scanner scan=new Scanner (System.in);
+ Account acc=new Account();
+ do{
+ System.out.println("\n1.Deposit \n2.Withdraw \n3.Show Balance \n4.Exit\n\nEnter 
+Your choice: ");
+ ch=Integer.parseInt(scan.nextLine());
+ 
+ switch (ch)
+ {
+ case 1: 
+ {
+ System.out.println("\nEnter Amount to Deposit: ");
+ int amount=Integer.parseInt(scan.nextLine());
+ acc.deposit(amount);
+ break;
+ }
+ case 2:
+ {
+ double temp=acc.reBalance();
+ System.out.println("\nEnter Amount to Withdraw: ");
+ int amount=Integer.parseInt(scan.nextLine());
+ if (temp<amount)
+ {
+ System.out.println("Do Not have Sufficient Balance to Withdraw This 
+Amount...");
+ }
+ else
+ acc.withdraw(amount);
+ break;
+ }
+ case 3: 
+ {
+ acc.showBalance();
+ break;
+ }
+ case 4: 
+ {
+ return;
+ }
+ }
+ }while(ch!=4);
+ }
+}
+
+/*
+9. Write a program by creating an 'Employee' class having the following methods and 
+print the final salary.
+- getInfo() which takes the salary, number of hours of work per day of employee as 
+parameter
+- AddSal() which adds $10 to salary of the employee if it is less than $500.
+- AddWork() which adds $5 to salary of employee if the number of hours of work per day 
+is more than 6 hours
+*/
+package CMPICA;
+import java.util.Scanner;
+class EMPLOYEE
+{
+ double salary;
+ int no_hours;
+ void GetInfo(int salary, int no_hours)
+ {
+ this.salary=salary;
+ this.no_hours=no_hours;
+ } 
+ void AddSal()
+ {
+ if (salary <500)
+ {
+ salary+=10;
+ }
+ }
+ void AddWork()
+ {
+ if (no_hours >6)
+ {
+ salary+=5;
+ }
+ 
+ }
+ void ShowSalary()
+ {
+ System.out.println("\nSalary is: "+salary);
+ }
+}
+public class Assignment4_9 {
+ public static void main(String args[])
+ {
+ Scanner scan=new Scanner(System.in);
+ System.out.println("\nEnter Your salary: ");
+ int salary=Integer.parseInt(scan.nextLine());
+ System.out.println("\nEnter Your Number Of Hours: ");
+ int no_hours=Integer.parseInt(scan.nextLine());
+ EMPLOYEE emp=new EMPLOYEE();
+ emp.GetInfo(salary, no_hours);
+ emp.AddSal();
+ emp.AddWork();
+ emp.ShowSalary();
+ }
+}
+/*
+10. Write a java program to calculate gross salary & net salary taking the following 
+data.
+Input: empno, empname, basic
+Process:
+DA=50%of basic
+HRA=25%of basic
+CCA=Rs240/-
+PF=10%of basic
+PT=Rs100/-
+*/
+package CMPICA;
+import java.util.Scanner;
+class Salary
+{
+ int empno,basic;
+ String empname;
+ Salary(){}
+ Salary(int empno,String empname,int basic)
+ {
+ this.empno=empno;
+ this.empname=empname;
+ this.basic=basic;
+ }
+ void calculateSalary()
+ {
+ double PT=100,CCA=224;
+ double DA=(basic/2);
+ double HRA= ((basic*25)/100);
+ double PF=((basic*10)/100);
+ double Gross_Salary = basic + DA + HRA;
+ double Net_Salary = Gross_Salary-PT-CCA-PF;
+ System.out.println("\nEmployee Number: "+empno);
+ System.out.println("Employee Name: "+empname);
+ System.out.println("Employee Basic Salary: "+basic);
+ System.out.println("Employee Gross Salary: "+Gross_Salary);
+ System.out.println("\nEmployee Net Salary: "+Net_Salary);
+ }
+}
+public class Assignment4_10 {
+ public static void main(String args[])
+ {
+ Scanner scan=new Scanner(System.in);
+ System.out.println("\nEnter Employee Number: ");
+ int empno=Integer.parseInt(scan.nextLine());
+ System.out.println("Enter Employee Name: ");
+ String empname=scan.nextLine();
+ System.out.println("Enter Basic Salary: ");
+ int basic=Integer.parseInt(scan.nextLine());
+ 
+ Salary s_obj=new Salary(empno,empname,basic);
+ s_obj.calculateSalary();
+ 
+ 
+ }
+}

@@ -1,0 +1,10 @@
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.csproj.AssemblyReference.cache
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.cbhockey.resources
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.Properties.Resources.resources
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.csproj.GenerateResource.cache
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.csproj.CoreCompileInputs.cache
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\bin\Debug\Asigement4.exe.config
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\bin\Debug\Asigement4.exe
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\bin\Debug\Asigement4.pdb
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.exe
+E:\charusat\sem 5\c#\assigement5\Asigement4\Asigement4\obj\Debug\Asigement4.pdb

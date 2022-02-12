@@ -1,0 +1,51 @@
+body{
+    background: #ffffcc;
+    background-image: url(Img\7.jpg);
+    background-size: 100% 100%;
+    border: black solid 2px;
+    
+    
+}
+header{
+    background:  #ccaa66;
+    text-align: center;
+}
+aside{
+    float: left;
+    background: #bdbd8b;
+    width: 20%;
+    padding: 20px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    
+}
+section{
+    float: right;
+   padding: 10px;
+   width: 75%;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+   
+}
+
+#img{
+
+    display: inline;
+    float: right ;
+}
+footer{
+    background-color: #ccaa66;
+    clear: both;
+    text-align: center;
+}
+
+.border{
+    
+    display: flex;
+}
