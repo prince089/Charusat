@@ -1,6 +1,6 @@
 # Semester 4
 
-all Assignment of practical subject for Semester 4 are here 
+All Assignment of practical subject for Semester 4 are here 
 
 
 1. [Arduino]()<br />
